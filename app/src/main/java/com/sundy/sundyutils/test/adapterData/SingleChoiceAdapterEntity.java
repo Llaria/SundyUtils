@@ -1,4 +1,4 @@
-package com.sundy.sundyutils.TestData.AdapterData;
+package com.sundy.sundyutils.TestData.adapterData;
 
 /**
  * 单选ListView适配器的数据源

@@ -12,8 +12,6 @@ import java.util.List;
 
 /**
  * 封装RecyclerView的adapter
- *
- * @author scj
  */
 public abstract class AbsRecyclerViewAdapter<T> extends RecyclerView.Adapter<AbsRecyclerViewAdapter.RecyclerViewHolder> {
 

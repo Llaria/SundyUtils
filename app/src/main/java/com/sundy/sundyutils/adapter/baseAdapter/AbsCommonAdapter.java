@@ -10,8 +10,6 @@ import java.util.List;
 
 /**
  * 封装BaseAdapter
- * 
- * @author scj
  */
 public abstract class AbsCommonAdapter<T> extends BaseAdapter {
 

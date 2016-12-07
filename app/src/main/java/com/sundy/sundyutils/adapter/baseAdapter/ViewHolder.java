@@ -8,8 +8,6 @@ import android.view.ViewGroup;
 
 /**
  * 通用ViewHolder
- * 
- * @author scj
  */
 public class ViewHolder {
 

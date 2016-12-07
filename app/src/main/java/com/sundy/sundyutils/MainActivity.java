@@ -1,33 +1,29 @@
 package com.sundy.sundyutils;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.Button;
+import android.widget.TextView;
 
 import butterknife.Bind;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BizBaseActivity {
 
-    @Bind(R.id.btn_single_choice)
-    Button btnSingleChoice;
+    public static final String TAG = MainActivity.class.getSimpleName();
+    @Bind(R.id.text_view)
+    TextView textView;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
+    protected int setContentViewID() {
+        return R.layout.activity_main;
     }
 
-    @OnClick(R.id.btn_single_choice)
-    public void onClick() {
-        //toNextActivity(SingleChoiceActivity.class);
+    @Override
+    protected void init() {
+        String s = null;
+        for (int i = 0; i < 50; i++) {
+            s = s + "今天天气真是好啊!";
+        }
+        //textView.setText(s);
     }
 
-    public void toNextActivity(Class cls){
-        Intent intent = new Intent(this,cls);
-        startActivity(intent);
-    }
 }
+
+

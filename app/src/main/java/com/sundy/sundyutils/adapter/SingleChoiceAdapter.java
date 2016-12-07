@@ -2,7 +2,7 @@ package com.sundy.sundyutils.adapter;
 
 import android.content.Context;
 
-import com.sundy.sundyutils.TestData.AdapterData.SingleChoiceAdapterEntity;
+import com.sundy.sundyutils.TestData.adapterData.SingleChoiceAdapterEntity;
 import com.sundy.sundyutils.adapter.baseAdapter.AbsCommonAdapter;
 import com.sundy.sundyutils.adapter.baseAdapter.ViewHolder;
 
