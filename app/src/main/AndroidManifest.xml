@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".MainActivity">
+
             <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,9 +29,9 @@
             </intent-filter>
         </activity>
 
-        <!--仿网易新闻的可编辑频道-->
-        <activity android:name=".activity.TabMovedActivity.TabMoveActivity"></activity>
-
+        <!-- 仿网易新闻的可编辑频道 -->
+        <activity android:name=".activity.TabMovedActivity.TabMoveActivity" />
+        <activity android:name=".activity.TabMovedEditActivity.TabMovedEditActivity"></activity>
     </application>
 
 </manifest>
